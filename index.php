@@ -7,16 +7,22 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100">
+    
     <div class="container mx-auto px-4 py-8">
+
+    
         <h1 class="text-3xl font-bold text-center mb-8"> CRUD Tabel Mahasiswa</h1>
-        
+
+      
+    
+
 
         <!-- Search and Add User (Static) -->
         <div class="flex flex-col md:flex-row justify-between items-center mb-6">
             <div class="w-full md:w-1/3 mb-4 md:mb-0">
                 <input type="text" placeholder="Search users..." class="w-full px-4 py-2 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500">
             </div>
-            <a href="" target="blank">
+            <a href="create.php" target="blank">
                  <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-300">
                 Add New User
             </button>

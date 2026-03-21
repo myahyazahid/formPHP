@@ -74,7 +74,7 @@ if(isset($_POST['submit'])){
 
             <div class="flex gap-2">
 
-            <a href="http://" class="w-64 text-center bg-red-500 hover:bg-red-600 text-white font-semibold py-2 rounded-lg transition duration-200" >
+            <a href="http://localhost/formPHP/index.php" class="w-64 text-center bg-red-500 hover:bg-red-600 text-white font-semibold py-2 rounded-lg transition duration-200" >
                kembali </a>
             </button>
 
